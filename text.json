@@ -1,0 +1,175 @@
+{
+    "chartTypeId": 1,
+    "title": "Tên biểu đồ",
+    "settings": [
+           {
+               "data": [
+                   {
+                       "chartPropertyId": 3,
+                       "detail": [
+                           {
+                               "attributeCode": "LABEL",
+                               "value": ""
+                           }
+                       ]
+                   }
+               ]
+           },
+
+           
+           {
+               "data": [
+                   {
+                       "chartPropertyId": 4,
+                       "detail": [
+                           {
+                               "attributeCode": "LABEL",
+                               "value": ""
+                           }
+                       ]
+                   }
+               ]
+           },
+           {
+               "data": [
+                   {
+                       "chartPropertyId": 5,
+                       "detail": [
+                           {
+                               "attributeCode": "ID_FE",
+                               "value": "80b0cf8e-8a18-4d2d-81ad-c144e12f7f71"
+                           },
+                           {
+                               "attributeCode": "SELECTEDDATAID",
+                               "value": 10
+                           },
+                           {
+                               "attributeCode": "LABEL",
+                               "value": "dulieu1"
+                           },
+                           {
+                               "attributeCode": "FIELD",
+                               "value": "field 3"
+                           },
+                           {
+                               "attributeCode": "FUNCTIONID",
+                               "value": 10
+                           },
+                           {
+                               "attributeCode": "COLOR",
+                               "value": "#d02b2b"
+                           }
+                       ]
+                   },
+                   {
+                       "chartPropertyId": 5,
+                       "detail": [
+                           {
+                               "attributeCode": "ID_FE",
+                               "value": "c3babbcb-76ba-47c2-800a-324e9d57ba5c"
+                           },
+                           {
+                               "attributeCode": "SELECTEDDATAID",
+                               "value": 11
+                           },
+                           {
+                               "attributeCode": "LABEL",
+                               "value": "dulieu2"
+                           },
+                           {
+                               "attributeCode": "FIELD",
+                               "value": "field 2"
+                           },
+                           {
+                               "attributeCode": "FUNCTIONID",
+                               "value": 12
+                           },
+                           {
+                               "attributeCode": "COLOR",
+                               "value": "#f8e71c"
+                           }
+                       ]
+                   }
+               ]
+           },
+           {
+               "data": [
+                   {
+                       "chartPropertyId": 6,
+                       "detail": [
+                           {
+                               "attributeCode": "ID_FE",
+                               "value": "89afe9db-1bfa-4b83-b7b7-ecebf3b8438a"
+                           },
+                           {
+                               "attributeCode": "FIELD",
+                               "value": "field 3"
+                           }
+                       ]
+                   },
+                   {
+                       "chartPropertyId": 6,
+                       "detail": [
+                           {
+                               "attributeCode": "ID_FE",
+                               "value": "0235f789-7812-4d92-ae07-73dcc5811f33"
+                           },
+                           {
+                               "attributeCode": "FIELD",
+                               "value": "field 4"
+                           }
+                       ]
+                   }
+               ]
+           },
+           {
+               "data": [
+                   {
+                       "chartPropertyId": 8,
+                       "detail": [
+                           {
+                               "attributeCode": null,
+                               "value": "{\"ID\":\"233457e4-b5a1-45a8-9554-88364dbc391b\",\"ID_REFERENCE\":\"80b0cf8e-8a18-4d2d-81ad-c144e12f7f71\",\"FIELD\":\"field 3\",\"SORTID\":2,\"LABEL\":\"dulieu1\",\"TYPE\":\"METRIC\"}"
+                           }
+                       ]
+                   }
+               ]
+           },
+           {
+               "data": [
+                   {
+                       "chartPropertyId": 9,
+                       "detail": [
+                           {
+                               "attributeCode": null,
+                               "value": "1,2"
+                           }
+                       ]
+                   }
+               ]
+           },
+           {
+               "data": [
+                   {
+                       "chartPropertyId": 10,
+                       "detail": [
+                           {
+                               "attributeCode": "SELECTEDDATAID",
+                               "value": 10
+                           },
+                           {
+                               "attributeCode": "SELECTEDDATAID",
+                               "value": 11
+                           }
+                       ]
+                   }
+               ]
+           }
+       ]
+   }
+
+
+   
+   "chartTypeId": 1,
+   "title": "Tên biểu đồ",
+   "settings": [

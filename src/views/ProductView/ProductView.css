@@ -1,0 +1,25 @@
+.view__container{
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_list-container{ 
+    display: grid ; 
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 25px;
+}
+.brand__name{
+    padding: 20px;
+}
+.control__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter__block{
+    display: flex;
+}

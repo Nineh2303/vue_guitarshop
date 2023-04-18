@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500;1,600&display=swap');
+:root{
+    --main-color: #ffffff;
+    --logo-color : rgb(41, 41, 41);
+    --text-color :#151a1e;
+    --normal-size: 16px;
+    --button-solid-border : rgba(92, 92, 92, 0.5);
+    --button-bg :   rgb(204, 204, 204);
+    --button-text : #fff;
+    --normal-font-weight : 500;
+    --background-main-color :  rgb(184, 184, 184) ;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif; 
+
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
