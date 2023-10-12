@@ -21,7 +21,6 @@ jobs:
 
     steps:
     - uses: skywarth/vite-github-pages-deployer@v1.2.0
-    - name : Vite Github Pages Deployer
       with :
           public_base_path: ${{ github.event.repository.name }}
           build_path: ./dist
