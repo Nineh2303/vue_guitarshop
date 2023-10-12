@@ -20,6 +20,10 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    -name : Read package.json
+     uses : rexdefuror/read-package-json@v1.0.5
+      with : 
+        path : ./package.json
     - run: npm install
     - run: npm ci
     - run: npm run build --if-present
