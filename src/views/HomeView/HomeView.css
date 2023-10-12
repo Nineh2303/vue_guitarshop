@@ -1,6 +1,5 @@
 .main__container{
     width : 75%;
-    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -59,7 +58,8 @@
 .main__slogan-list li{
     padding: 8px;
     font-size: 20px;
-    color : rgba(255, 255, 255, .89)
+    color : var(--second-text-color);
+    font-weight: 400;
 }
 .main__slogan-subtitle{
     position: absolute;
@@ -95,7 +95,7 @@
     text-decoration: underline;
 }
 .section__title{
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
     font-size: 25px;
 }
@@ -153,6 +153,8 @@
     margin-right: auto;
     margin-left: auto;
     padding: 30px 0 ;
+    height: 280px;
+
 }
 .section__contact-form-left{
     display: flex;
@@ -173,6 +175,7 @@
 .section__contact-form-right{
     display: flex;
     flex-direction: column;
+    height: 255px;
 }
 .form__btn{
     width : 120px;
@@ -199,6 +202,10 @@
     padding : 10px 15px;
     font-size: 16px;
     background-color: rgb(235, 235, 235);
+    resize: none;
+    outline: none;
+    height: 190px;
+    width: 600px;
 }
 /* ===================PRODUCT CARD============== */
 
@@ -235,4 +242,3 @@
 .section__branch-show img{
     width: 180px;
 }
-

@@ -2,13 +2,14 @@
   <div class="view__container">
     <div class="view__header">
       <h2 class="brand__name">
-        {{ queryName != null ? ` Result for '${queryName}'` : "All products" }}
+        {{ brandName != null ? ` Result for '${brandName}'` : "All products" }}
       </h2>
-      <div class="select__box">
-        <p>Sort by: </p>
-        <SelectCustom :options="sortTypes"
-                      :sortKey="'sortName'"
-                      @handle="handleSort"/>
+      <div class="option">
+        <div class="text-center">
+          <SelectCustom :options="sortTypes"
+                        :sortKey="'sortName'"
+                        @handle="handleSort"/>
+        </div>
       </div>
     </div>
     <div class="product_list-container">
@@ -26,32 +27,23 @@ import SelectCustom from "@/components/SelectCustom/SelectCustom.vue";
 
 const route = useRoute()
 const shopStore = useShopStore();
-const queryName = ref(route.params.query)
+const brandName = ref(route.params.brandName)
+const productByCategory = reactive([])
 const sortOption = reactive({})
-let productByCategory = reactive([])
 
+
+watch(() => route.params.brandName, newBrandName => {
+  brandName.value = newBrandName
+})
 productByCategory.value = computed(() => {
-  if (queryName.value != null) {
-    return shopStore.products.filter(product => product.productName.trim().toString().toLowerCase().includes(queryName.value.trim().toString().toLowerCase()))
+  if (brandName.value != null) {
+    return shopStore.products.filter(product => product.productName.trim().toString().toLowerCase().includes(brandName.value.trim().toString().toLowerCase()))
   } else {
-    return [...shopStore.products]
+    return shopStore.products
   }
 })
-
-watch(() => route.params.query, query => {
-  queryName.value = query ? query : ""
-  productByCategory.value = computed(() => {
-    if (queryName.value != null) {
-      return shopStore.products.filter(product => product.productName.trim().toString().toLowerCase().includes(queryName.value.trim().toString().toLowerCase()))
-    } else {
-      return [...shopStore.products]
-    }
-  })
-})
-
 const handleSort = (option) => {
   sortOption.value = option
-  let query = queryName.value ? queryName.value : ""
   let data = [...productByCategory.value]
   switch (option.sortCode) {
     case 'ASCENDING':
@@ -79,5 +71,5 @@ const handleSort = (option) => {
 
 </script>
 <style lang="css" scoped>
-@import url("./ProductView.css");
+@import url("./BrandView.css");
 </style>

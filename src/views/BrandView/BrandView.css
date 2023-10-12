@@ -8,13 +8,12 @@
 }
 .view__header{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 .product_list-container{
     margin-top: 40px;
-    display: grid ; 
+    display: grid ;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 25px;
 }
@@ -29,13 +28,11 @@
 .filter__block{
     display: flex;
 }
-.select__box{
-    width: 400px;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-   align-items: center;
+
+.menu{
+    width: 150px;
+    background-color: transparent;
 }
-.select__box p{
-    margin-right: 10px;
+.menu__item{
+    width: 150px
 }

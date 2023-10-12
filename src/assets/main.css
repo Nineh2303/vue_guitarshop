@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500;1,600&display=swap');
 :root{
-    --main-color: #ffffff;
+    --main-color: #eaeaea;
     --logo-color : rgb(41, 41, 41);
     --text-color :#151a1e;
     --normal-size: 16px;
@@ -12,6 +12,7 @@
     --button-text : #fff;
     --normal-font-weight : 500;
     --background-main-color :  rgb(184, 184, 184) ;
+    --hover-shadow  : rgba(62, 62, 62, 0.76);
 }
 
 *{
@@ -23,6 +24,7 @@
 }
 
 html{
+    padding-top: 150px;
     scroll-behavior: smooth;
-    background-color: #fff;
+    background-image: linear-gradient(rgba(97, 97, 97, 0.78), #f3f3f3);
 }

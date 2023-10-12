@@ -9,9 +9,7 @@ import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
-
 import './assets/main.css'
-
 import Unicon from 'vue-unicons'
 import { uniShoppingCart, uniSearch } from 'vue-unicons/dist/icons'
 

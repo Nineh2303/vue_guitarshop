@@ -1,10 +1,11 @@
-<template lang="">
+<template>
     <div>
         <!-- {{product}} -->
         <div class="product__detail-container">
             <div class="product__infomation">
                 <div class="product__img">
                     <img :src="product.productImg" alt="" class="product__detail-img">
+                  <div class="product__hover"></div>
                 </div>
                 <div class="product__detail">
                     <h2>{{product.productName}}</h2>
@@ -18,39 +19,7 @@
                         </template>
                     </div>
                     <p class="product__description">{{product.productDescription}}</p>
-                    <v-table >
-                    <tbody>
-                    <tr class="table__tr">
-                        <td class="product__td">Name</td>
-                        <td class="product__td">Category</td>
-                    </tr>
-                    <tr class="table__tr">
-                        <td class="product__td">Name</td>
-                        <td class="product__td">Category</td>
-                    </tr>
-                    <tr class="table__tr">
-                        <td class="product__td">Name</td>
-                        <td class="product__td">Category</td>
-                    </tr>
-                    <tr class="table__tr">
-                        <td class="product__td">Name</td>
-                        <td class="product__td">Category</td>
-                    </tr>
-                    <tr class="table__tr">
-                        <td class="product__td">Name</td>
-                        <td class="product__td">Category</td>
-                    </tr>
-                    <tr class="table__tr">
-                        <td class="product__td">Name</td>
-                        <td class="product__td">Category</td>
-                    </tr>
-                    <tr class="table__tr">
-                        <td class="product__td">Name</td>
-                        <td class="product__td">Category</td>
-                    </tr>
-                   
-                    </tbody>
-                    </v-table>
+
                     <button class="add__btn">Add to Cart</button>
                     </div>
             </div>

@@ -1,4 +1,4 @@
-<template lang="">
+<template>
     <router-link :to="{path:'/product/'+ product.productSlug,
                         props : {product : product}
                         }" class="section__product-link">
@@ -12,8 +12,7 @@
                                     <h1 class="product__name">{{product.productName}}</h1>
                                 </div>
                                 <div class="product__footer-bottom">
-                                    <h1 class="product__price">25.000.000 VND</h1>
-                                    <h3>Còn hàng</h3>
+                                  <p class="product__price">${{ product.productPrice }}</p>
                                 </div>
                             </div>
                         </div>
